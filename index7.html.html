@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="wpopobhidth-device-width" initial-scale="1.0"/>
+        <title>KANYAKUMARI : VIVEKANADA ROCK</title>
+        <style>
+        body{
+            background-color: black ;
+         }
+         .navbar{
+            background-color: #7dd2fc;
+            border: 2px solid white;
+            height:60px;
+            font-size: 50px;
+            padding: 20px;
+           text-align: center;
+           flex-direction: row;
+         }
+         .main-heading{
+            border: 2px solid white;
+            color: white;
+            font-size: 40px;
+            text-align: center;
+            margin-left: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         }
+        .name{
+           font-size: 30px;
+           color: rgb(235, 184, 230);
+           padding: 20px;
+           margin: 10px;
+        }
+        .head-container{
+         display: flex;
+         position: relative;
+         justify-content: space-evenly;
+        }
+        .head-container:hover{
+         display:  flex;
+         position: relative;
+        }
+       .box-hover{
+         width: auto;
+         padding: 10px;
+         border: 2px solid white;
+         margin: 10px;
+         justify-content: space-evenly;
+         width: auto;
+        display: flex;
+       }
+      .hover-box-container{
+       display: flex;
+       border: 2px solid white;
+      top: -5px;
+      right: 20px;
+      }
+       .hover2-box{
+       border: 2px solid ;
+      width: 200px;
+      display: flex;
+      position: relative;
+       flex-direction: row;
+       width: auto;
+       }
+        .box{
+           color: white;
+           background-color: rgb(55, 54, 7);
+           padding: 10px;
+           margin: 10px;
+           width: 500px;
+           border: 2px solid rgb(202, 167, 102);
+           border-radius: 30px;
+           padding: 10px;
+        }
+        .con{
+        height: 100px;
+        margin-bottom: auto;
+        }
+        .box-container{
+         display: inline flex;
+         position: relative;
+        }
+        .img-container{
+         display:  flex;
+         justify-content: space-evenly;
+        }
+        .header-container{ 
+         display: flex;
+         position: relative;
+         justify-content: space-evenly;
+        }
+        .Best-time{
+        font-size: medium;
+        color: bisque;
+        }
+        .point{
+         padding: 5px;
+         color: #fff;
+        }
+        .place{
+        color: rgb(24, 86, 111);
+        font-size: 20px;
+        display: flex;
+        width: 300px;
+        padding: 20px;
+        justify-content: space-evenly;
+        }
+       .headings{
+        width: auto;
+        color: white;
+        font-size: 30px;
+        border:2px solid white;
+        font-family: Arial, Helvetica, sans-serif;
+       }
+       .h2{
+         width: auto;
+         border: #203f45;
+         background-color: rgb(185, 141, 86);
+         display: flex;
+         width: auto;
+         border: 2px solid white;
+       }
+       .place-name{
+         text-align: left;
+         color: black;
+         font-size: 20px;
+       }
+       .h2-box{
+         width: 200px;
+         background-color: rgb(149, 247, 214);
+         flex: content;
+         display: flex;
+         position: relative;
+       }
+       .food{
+        display: flex;
+        padding: 20px;
+        border-radius: 20px;
+        flex-direction: row;
+       }
+       .food-cards{
+       width: 260px;
+       color: rgb(207, 167, 247);
+       background-color: rgb(56, 38, 19);
+       margin: 5px;
+       padding: 10px;
+       position: relative;
+       border: 2px solid white;
+       border-radius: 20px 20px 20px 20px;
+       box-sizing: content-box
+       }
+       .food-img{
+        width: 250px;
+        border-radius: 30px;
+       }
+       .food-name{
+        color: beige;
+        font-size: 20px;
+       }
+        .food-box{
+         background-color: rgb(234, 153, 153);
+         border: #fff;
+         display:inline flex;
+         width: auto;
+         border: 2px solid white;
+        }
+      .jpg-cards{
+       width: 270px;
+       margin: 5px;
+       padding: 10px;
+      border: 2px solid white;
+      height: 200px;
+      display: flex;
+      background-color: #203f45;
+      border-radius: 5px;
+      }
+      .jpg-img{
+         width: 180px;
+         border-radius: 20px;
+      }
+      .jpg-name{
+         color: gold;
+      }
+      .jpg-box{
+         background-color: rgb(83, 56, 17);
+         border: #e35d5d;
+         display: inline flex;
+         width: auto;
+      }
+   .Topnav{
+    border: 2px solid white;    
+    text-align: center;
+    background-color: rgb(40, 3, 17);
+    padding: 16px;
+    height: 55px;
+    box-shadow: 2px 4px;
+
+}
+.link{
+    float: center;
+    color: wheat;
+    padding: 14px 16px;
+    font-size: 30px;
+    
+}
+.login{
+   float: left;
+   width: 80px;
+   display: inline flex;
+   border: 2px solid black;
+}
+.login-btn:hover{
+   background-color: #eff259;
+   color: rgb(228, 234, 69);
+   margin-left: px;
+   padding: 12px;
+}
+@media screen and (max-width: 500px){
+   .navbar{
+       height: 40px;
+       display: flex;
+   }
+   .main-heading{
+       padding-left: 10px;
+       height: 50px;
+       position: relative;
+       bottom: 0px;
+   }
+   .name{
+       font-size: 30px;
+       padding-bottom: 0px;
+       margin-top: 2px;
+   }
+   .head-container{
+       font-size: 15px;
+       margin-left: 10px;
+   }
+   .head-container{
+         display: flex;
+         position: relative;
+         justify-content: space-evenly;
+        }
+        .head-container:hover{
+         display:  flex;
+         position: relative;
+        }
+       .box-hover{
+         width: auto;
+         padding: 10px;
+         margin: 10px;
+         justify-content: space-evenly;
+         width: auto;
+        display: flex;
+       }
+       .food{
+        display: flex;
+        padding: 20px;
+        border-radius: 20px;
+        flex-direction: row;
+       }  
+}
+
+.footer{
+   border: 2px solid gold;
+    background: white;
+    border-radius: 30px;
+    height: 360px;
+    padding: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer-img{
+    height: 150px;
+    height: 250px;
+    position: relative;
+    top: 25px;
+    bottom: 20px;
+    right: 30px;
+}
+.input{
+    border-radius: 20px;
+    background-color: #fff;
+    color: #000;
+}
+.h1{
+    margin-top: -50px;
+}
+.button{
+    border-radius: 10px;
+}
+        </style>
+    </head>
+    <body>
+    <nav class="navbar">INDIAN PARADISE</nav>
+
+    <h1 class="main-heading">VIVEKANANDA ROCK MEMORIAL, KANYAKUMARI : </h1>
+
+    <h2 class="name">Kanyakumari View :</h2>
+    
+   <div class="box-hover">
+      <img src="vivekanand rock.jpg"/>
+    </div>
+
+    <div class="hover-box-container">
+   <div class="hover2-box">
+      <img src="thiruvalluvar1.jpeg"/>
+    </div>
+
+    <div class="hover2-box">
+      <img src="beautiful view.jpeg" />
+    </div>
+
+    <div class="hover2-box">
+      <img src="place.jpeg" width="350px"/>
+    </div>
+
+    </div>
+
+   </div>
+
+    </div>
+   </br>
+      <div class="box-container">
+    <div class="box"><ul class="discription">
+    <h1 ><b><il>History Of Vivekananda Rock Memorial : </b> <ul></h1>
+    <li class="point">The Vivekananda Rock Memorial is a monument located in Kanyakumari, India. </li>
+    <li class="point">It was built in 1970 in honor of Swami Vivekananda, who is said to have attained enlightenment on the rock 12.</li>
+    <li class="point">According to local legends, it was on this rock that Goddess Kumari performed austerity 3. The memorial stands on one of two rocks in the Laccadive Sea, located about 500 meters east of the mainland of Vavathurai 3. </li>
+    <li class="point">The design of the mandapa incorporates different styles of temple architecture from all over India.</li>
+   </ul> 
+   </div>
+    <div class="con">
+      <div class="box"><ul class="discription">
+         <h2><b><il>Why we have to visit this place</b> <ul></h2>
+         <li> Located 500 meters away the mainland, Vivekananda Rock Memorial is a place of great scenic beauty, historical importance and religious significance.</li>
+         <li> Undeniably one of the most popular places to see in Kanyakumari, this rock is considered to be holy as well as an architectural wonder.</li></ul></p>
+         </div>
+     
+         <div class="box"><ul class="discription">
+        <h3><b><il>Best time to Visit :</b><ul></h3>
+        <li>Sunrise happens between Vivekananda Rock Memorial and St. Thiruvalluvar Statue. For Sunset, plan to reach this rock before 4:00 pm.</li></ul></div><br/><br/>
+      </div>
+      </div>
+    </div>
+   
+    <h1 class="headings" align="middle">Near  By  Place</h1>
+    <div class="place">
+
+    <div class="h2-box">
+
+        <div class="h2">
+         <img src="bhagavathy-amman-temple.jpg" class="place"/>
+         <div class="place-name">sunrise</div>
+        </div>
+
+        <div class="h2">
+         <img src="gandhi-memorial.jpg" class="place"/>
+         <div class="place-name">gandhi-memorial</div>
+        </div>
+
+        <div class="h2">
+         <img src="kanyakumari.jpg" class="place"/>
+         <div class="place-name">thiruvalluvar-statue</div>
+        </div>
+      </div>
+   
+</div>
+
+   <h2 class="headings "align="middle">Don't give a miss to this food when in Kanyakumari.😇</h2>
+<div class="food-box">
+   <div class="food">
+   
+       <div class="food-cards">
+        <img src="./thali.jpg" class="food-img"/>
+        <div class="food-name">Mix Thali  :</div>
+       <div class="food-discription">A traditional Assamese meal starts with a unique dish called khar (a curry of raw papaya, lentil and powdered dried  skins).</div>
+       </div>
+
+       <div class="food-cards">
+       <img src="./banana chips.html" class="food-img" />
+       <div class="food-name">Banana chips :</div>
+       <div class="food-discription">Banana chips are deep-fried, dried slices of banana that are coated in sugar or honey.<br/>They are pale yellow, round slices and are often sold in bulk and eaten as snacks or sometimes used in baking.</div>
+       </div>
+       
+       <div class="food-cards">
+       <img src="idli dosa.jpeg" class="food-img" />
+       <div class="food-name">Idli Dosa :</div>
+       <div class="food-discription">WebIdlis are soft pillowy moon-like cakes made of steamed rice and lentil. Millet and vegetables can be added to this simple recipe</div>
+       </div>
+
+       <div class="food-cards">
+        <img src="fish.jpeg" class="food-img"/>
+        <div class="food-name">Fish :</div>
+        <div class="food-discription">The Sea View restaurant in Kanyakumari is a very good restaurant for both veg and non veg food.</div>
+        </div>
+      </div>
+</div><br/>
+
+<h1 class="headings" align="middle">YOUR BEST ADVENTURE</h1>
+
+<div>
+   <div class="jpg-box">
+   <div class="jpg-cards">
+   <div class="jpg-name"> ANNAI RESORT</div>
+   <img src="./annai resort.jpg" class="jpg-img" />
+   </div> 
+
+   <div class="jpg-cards">
+   <div class="jpg-name">kannur international airport</div>
+   <img src="./kannur international airport.j[g.jpeg" class="jpg-img" />
+   </div>
+
+   <div class="jpg-cards">
+   <div class="jpg-name">HOTEL SARAVANA</div>
+   <img src="./c-areas-to-either-side.jpg" class="jpg-img" />
+   </div>
+
+   <div class="jpg-cards">
+   <div class="jpg-name">kanyakumari railwaystation</div>
+   <img src="./kanyakumari railwaysation.jpeg" class="jpg-img" />
+   </div>
+   
+   </div><br>
+  <br>
+      <div class="Topnav">
+         
+         <a href="#home.html"      class="link">Home </a>  
+         <a href="#news.html"     class="link" >News</a>
+         <a href="#contact.html"  class="link">Contact</a>
+         <a href="#about.html"    class="link">About</a>
+         <footer class="href">
+
+      </div> </footer>
+     
+   </div><br>
+  
+</div>
+<div class="footer">
+   <div class="f-column">
+       <img src="travel logo.jpg" class="footer-img" >
+       <h2>Indian Paradise</h2>
+       <h2 class="h1">
+           Indian Paradise
+       </h2>
+       
+       <h4>Support</h4>
+       <h4>Profile</h4>
+
+   </div>
+   <div class="t-column">
+   <div class="s-column">
+       <h4>Find an adventure</h4>
+       <h4>Buitd custom trip</h4>
+       <h4>My list</h4>
+       <h4>Submit a story</h4>
+
+   </div class="fourth-column">
+   <div>
+   </div>
+   <div class="s-column">
+       <h4>Get updates</h4>
+       <form>
+           <br /><br />
+           <div class="login">
+            <button class="login-btn">
+               <a href="login.html">Travel login form.html</a>
+            </button>
+       </form>
+
+       </div></div>
+
+</div><button class="btn">MAP - : </button> 
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15249822.21961233!2d82.75252935!3d21.068622799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1697714373266!5m2!1sen!2sin" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</html>
